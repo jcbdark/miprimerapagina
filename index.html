@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>José Carlos Bedoya Rivera</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4874554ec.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>   
+</head>
+
+<body>
+    <header>
+        <i class="fa-solid fa-user-secret"></i>
+        <nav class="navbar">
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="menu">
+                <a href="#"><li>Inicio</li></a>
+                <a href="#Acerca"><li>Acerca de mí</li></a>
+                <a href="#"><li>Trabajos</li></a>
+                <a href="#contacto"><li>Contacto</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main id="seccion principal">
+        <section class="section-1">
+            <div class="Acerca">
+                <h1>Acerca de mí</h1>
+                <p class="parrafo">Me llamo José Carlos soy de la ciudad de Arequipa, mi pasión es aprender programación, me gusta ir al cine y ver anime y ayudar a los que les apasiona la programación.</p>
+            </div>
+            
+        </section>
+        <section class="section-1">
+            <img class="foto" src="imagenes/foto.jpg">
+        </section>
+        <section class="section-2">
+            <img class=".paisaje" src="imagenes/paisaje.jpg">
+        </section>
+        <section id="trabajos" class="trabajo-container">
+            <h3 class="title-section">Trabajos</h3>
+            <div class="trabajos">
+                <div class="trabajo-item">
+                    <img src="imagenes/code.jpg" height="150px" alt="Imagen de carrusel 1" />
+                    <h2>Programación Front End y Backend</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga amet non et harum magnam eaque, a nihil voluptate illo voluptatem vel culpa dolorum perferendis quibusdam deserunt! Veniam ex quibusdam corporis.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="trabajo-item">
+                    <img src="imagenes/online.jpg" height="150px" alt="Imagen de carrusel 1" />
+                    <h2>Seo y Posicionamento de tu página web</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga amet non et harum magnam eaque, a nihil voluptate illo voluptatem vel culpa dolorum perferendis quibusdam deserunt! Veniam ex quibusdam corporis.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="trabajo-item">
+                    <img src="imagenes/web.jpg" height="150px" alt="Imagen de carrusel 1" />
+                    <h2>Diseño web adaptable</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga amet non et harum magnam eaque, a nihil voluptate illo voluptatem vel culpa dolorum perferendis quibusdam deserunt! Veniam ex quibusdam corporis.</p>
+                    <a href="#">Leer más</a>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="contacto-container">
+            <div class="form-header">
+                <h1 class="title-section">Contacto</h1>
+                <p><em>¡Esperamos tu consulta!</em></p>
+                <form action="" method="get" class="formulario" id="form">
+                    <div class="form-row">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" />
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="pepe@gmail.com"/>
+                    </div>
+                    <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <button id="submit" type="submit">Enviar</button>
+                    </div>
+                    <div class="form-row oculto" id="alerta-container">
+                        <p class="alertas" id="alertas">aca el error</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+         
+    </main>
+    
+    <footer>
+        <div class="footer">
+            <h3>Redes Sociales</h3>
+            <ul>
+                <a href="http://www.facebook.com"><li>Facebook </li></a>
+                <a><li>Instagram</li></a>
+                <a><li>Youtube</li></a>
+            </ul>
+        </div>
+        
+    </footer>
+    
+    
+</body>
+</html>
